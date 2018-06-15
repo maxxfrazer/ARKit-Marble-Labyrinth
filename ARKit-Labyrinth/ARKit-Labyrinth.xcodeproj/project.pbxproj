@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1A3A0E20D42CE3002BB140 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A3A0D20D42CE3002BB140 /* AppDelegate.swift */; };
+		AF1A3A1020D42CE3002BB140 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1A3A0F20D42CE3002BB140 /* art.scnassets */; };
+		AF1A3A1220D42CE3002BB140 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A3A1120D42CE3002BB140 /* ViewController.swift */; };
+		AF1A3A1520D42CE3002BB140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1A3A1320D42CE3002BB140 /* Main.storyboard */; };
+		AF1A3A1720D42CE4002BB140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1A3A1620D42CE4002BB140 /* Assets.xcassets */; };
+		AF1A3A1A20D42CE4002BB140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1A3A1820D42CE4002BB140 /* LaunchScreen.storyboard */; };
+		AF1A3A2520D42CE5002BB140 /* ARKit_LabyrinthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A3A2420D42CE5002BB140 /* ARKit_LabyrinthTests.swift */; };
+		AF1A3A3220D42D93002BB140 /* MarkerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A3A3020D42D93002BB140 /* MarkerNode.swift */; };
+		AF1A3A3320D42D93002BB140 /* MarbleSphere.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1A3A3120D42D93002BB140 /* MarbleSphere.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF1A3A2120D42CE5002BB140 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1A3A0220D42CE3002BB140 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1A3A0920D42CE3002BB140;
+			remoteInfo = "ARKit-Labyrinth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF1A3A0A20D42CE3002BB140 /* ARKit-Labyrinth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARKit-Labyrinth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1A3A0D20D42CE3002BB140 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF1A3A0F20D42CE3002BB140 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		AF1A3A1120D42CE3002BB140 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF1A3A1420D42CE3002BB140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF1A3A1620D42CE4002BB140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF1A3A1920D42CE4002BB140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF1A3A1B20D42CE4002BB140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1A3A2020D42CE5002BB140 /* ARKit-LabyrinthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARKit-LabyrinthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1A3A2420D42CE5002BB140 /* ARKit_LabyrinthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKit_LabyrinthTests.swift; sourceTree = "<group>"; };
+		AF1A3A2620D42CE5002BB140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1A3A3020D42D93002BB140 /* MarkerNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerNode.swift; sourceTree = "<group>"; };
+		AF1A3A3120D42D93002BB140 /* MarbleSphere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarbleSphere.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF1A3A0720D42CE3002BB140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1A3A1D20D42CE5002BB140 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1A3A0120D42CE3002BB140 = {
+			isa = PBXGroup;
+			children = (
+				AF1A3A0C20D42CE3002BB140 /* ARKit-Labyrinth */,
+				AF1A3A2320D42CE5002BB140 /* ARKit-LabyrinthTests */,
+				AF1A3A0B20D42CE3002BB140 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1A3A0B20D42CE3002BB140 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1A3A0A20D42CE3002BB140 /* ARKit-Labyrinth.app */,
+				AF1A3A2020D42CE5002BB140 /* ARKit-LabyrinthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF1A3A0C20D42CE3002BB140 /* ARKit-Labyrinth */ = {
+			isa = PBXGroup;
+			children = (
+				AF1A3A0D20D42CE3002BB140 /* AppDelegate.swift */,
+				AF1A3A0F20D42CE3002BB140 /* art.scnassets */,
+				AF1A3A1120D42CE3002BB140 /* ViewController.swift */,
+				AF1A3A2F20D42D79002BB140 /* Classes */,
+				AF1A3A1320D42CE3002BB140 /* Main.storyboard */,
+				AF1A3A1620D42CE4002BB140 /* Assets.xcassets */,
+				AF1A3A1820D42CE4002BB140 /* LaunchScreen.storyboard */,
+				AF1A3A1B20D42CE4002BB140 /* Info.plist */,
+			);
+			path = "ARKit-Labyrinth";
+			sourceTree = "<group>";
+		};
+		AF1A3A2320D42CE5002BB140 /* ARKit-LabyrinthTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF1A3A2420D42CE5002BB140 /* ARKit_LabyrinthTests.swift */,
+				AF1A3A2620D42CE5002BB140 /* Info.plist */,
+			);
+			path = "ARKit-LabyrinthTests";
+			sourceTree = "<group>";
+		};
+		AF1A3A2F20D42D79002BB140 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF1A3A3120D42D93002BB140 /* MarbleSphere.swift */,
+				AF1A3A3020D42D93002BB140 /* MarkerNode.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1A3A0920D42CE3002BB140 /* ARKit-Labyrinth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1A3A2920D42CE5002BB140 /* Build configuration list for PBXNativeTarget "ARKit-Labyrinth" */;
+			buildPhases = (
+				AF1A3A0620D42CE3002BB140 /* Sources */,
+				AF1A3A0720D42CE3002BB140 /* Frameworks */,
+				AF1A3A0820D42CE3002BB140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARKit-Labyrinth";
+			productName = "ARKit-Labyrinth";
+			productReference = AF1A3A0A20D42CE3002BB140 /* ARKit-Labyrinth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF1A3A1F20D42CE5002BB140 /* ARKit-LabyrinthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1A3A2C20D42CE5002BB140 /* Build configuration list for PBXNativeTarget "ARKit-LabyrinthTests" */;
+			buildPhases = (
+				AF1A3A1C20D42CE5002BB140 /* Sources */,
+				AF1A3A1D20D42CE5002BB140 /* Frameworks */,
+				AF1A3A1E20D42CE5002BB140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF1A3A2220D42CE5002BB140 /* PBXTargetDependency */,
+			);
+			name = "ARKit-LabyrinthTests";
+			productName = "ARKit-LabyrinthTests";
+			productReference = AF1A3A2020D42CE5002BB140 /* ARKit-LabyrinthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF1A3A0220D42CE3002BB140 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Max Cobb";
+				TargetAttributes = {
+					AF1A3A0920D42CE3002BB140 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					AF1A3A1F20D42CE5002BB140 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = AF1A3A0920D42CE3002BB140;
+					};
+				};
+			};
+			buildConfigurationList = AF1A3A0520D42CE3002BB140 /* Build configuration list for PBXProject "ARKit-Labyrinth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF1A3A0120D42CE3002BB140;
+			productRefGroup = AF1A3A0B20D42CE3002BB140 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1A3A0920D42CE3002BB140 /* ARKit-Labyrinth */,
+				AF1A3A1F20D42CE5002BB140 /* ARKit-LabyrinthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF1A3A0820D42CE3002BB140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1A3A1020D42CE3002BB140 /* art.scnassets in Resources */,
+				AF1A3A1A20D42CE4002BB140 /* LaunchScreen.storyboard in Resources */,
+				AF1A3A1720D42CE4002BB140 /* Assets.xcassets in Resources */,
+				AF1A3A1520D42CE3002BB140 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1A3A1E20D42CE5002BB140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF1A3A0620D42CE3002BB140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1A3A3220D42D93002BB140 /* MarkerNode.swift in Sources */,
+				AF1A3A1220D42CE3002BB140 /* ViewController.swift in Sources */,
+				AF1A3A0E20D42CE3002BB140 /* AppDelegate.swift in Sources */,
+				AF1A3A3320D42D93002BB140 /* MarbleSphere.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1A3A1C20D42CE5002BB140 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1A3A2520D42CE5002BB140 /* ARKit_LabyrinthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF1A3A2220D42CE5002BB140 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1A3A0920D42CE3002BB140 /* ARKit-Labyrinth */;
+			targetProxy = AF1A3A2120D42CE5002BB140 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF1A3A1320D42CE3002BB140 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1A3A1420D42CE3002BB140 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF1A3A1820D42CE4002BB140 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1A3A1920D42CE4002BB140 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF1A3A2720D42CE5002BB140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF1A3A2820D42CE5002BB140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1A3A2A20D42CE5002BB140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2RTJDRM64;
+				INFOPLIST_FILE = "ARKit-Labyrinth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxxfrazer.ARKit-Labyrinth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF1A3A2B20D42CE5002BB140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2RTJDRM64;
+				INFOPLIST_FILE = "ARKit-Labyrinth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxxfrazer.ARKit-Labyrinth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF1A3A2D20D42CE5002BB140 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2RTJDRM64;
+				INFOPLIST_FILE = "ARKit-LabyrinthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxxfrazer.ARKit-LabyrinthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-Labyrinth.app/ARKit-Labyrinth";
+			};
+			name = Debug;
+		};
+		AF1A3A2E20D42CE5002BB140 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2RTJDRM64;
+				INFOPLIST_FILE = "ARKit-LabyrinthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maxxfrazer.ARKit-LabyrinthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARKit-Labyrinth.app/ARKit-Labyrinth";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1A3A0520D42CE3002BB140 /* Build configuration list for PBXProject "ARKit-Labyrinth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1A3A2720D42CE5002BB140 /* Debug */,
+				AF1A3A2820D42CE5002BB140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1A3A2920D42CE5002BB140 /* Build configuration list for PBXNativeTarget "ARKit-Labyrinth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1A3A2A20D42CE5002BB140 /* Debug */,
+				AF1A3A2B20D42CE5002BB140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1A3A2C20D42CE5002BB140 /* Build configuration list for PBXNativeTarget "ARKit-LabyrinthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1A3A2D20D42CE5002BB140 /* Debug */,
+				AF1A3A2E20D42CE5002BB140 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF1A3A0220D42CE3002BB140 /* Project object */;
+}
